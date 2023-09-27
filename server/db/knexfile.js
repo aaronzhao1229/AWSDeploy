@@ -7,7 +7,7 @@ module.exports = {
       host: 'localhost',
       user: 'root',
       password: 'test1234!',
-      database: 'test',
+      database: 'test_aws',
     },
     useNullAsDefault: true,
   },
@@ -18,15 +18,20 @@ module.exports = {
       host: 'localhost',
       user: 'root',
       password: 'test1234!',
-      database: 'test',
+      database: 'testAWS',
     },
     useNullAsDefault: true,
   },
 
   // to be updated
   production: {
-    client: 'postgresql',
-    connection: process.env.DATABASE_URL,
+    client: 'mysql2',
+    connection: {
+      host: '13.210.13.136',
+      user: 'root',
+      password: 'test1234!',
+      database: 'test',
+    },
     pool: {
       min: 2,
       max: 10,
