@@ -3,11 +3,17 @@
 module.exports = {
   development: {
     client: 'mysql2',
+    // connection: {
+    //   host: 'localhost',
+    //   user: 'root',
+    //   password: 'test1234!',
+    //   database: 'test_aws',
+    // },
     connection: {
-      host: 'localhost',
+      host: '13.210.13.136',
       user: 'root',
       password: 'test1234!',
-      database: 'test_aws',
+      database: 'test',
     },
     useNullAsDefault: true,
   },
