@@ -11,8 +11,8 @@ module.exports = {
     // },
     connection: {
       host: '13.210.13.136',
-      user: 'root',
-      password: 'test1234!',
+      user: 'aaronlaptop',
+      password: 'Test1234!',
       database: 'test',
     },
     useNullAsDefault: true,
