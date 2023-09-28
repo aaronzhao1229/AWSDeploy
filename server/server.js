@@ -19,7 +19,7 @@ server.use('/api/v1/album', albumRoutes)
 const scriptDir = path.dirname(process.argv[1])
 
 // Construct the absolute path to 'index.html'
-const indexPath = path.resolve(scriptDir, 'public', 'index.html')
+const indexPath = path.resolve(scriptDir, 'server', 'public', 'index.html')
 
 server.get('*', (req, res) => {
   res.sendFile(indexPath)
