@@ -15,6 +15,7 @@ server.use('/api/v1/album', albumRoutes)
 // server.get('*', (req, res) => {
 //   res.sendFile(path.resolve('server/public/index.html'))
 // })
+
 // Get the absolute path to the directory where your script is located
 const scriptDir = path.dirname(process.argv[1])
 
