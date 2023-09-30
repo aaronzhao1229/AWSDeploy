@@ -16,7 +16,7 @@ module.exports = {
     //   database: 'test',
     // },
     connection: {
-      host: 'localhost',
+      host: '3.26.160.105',
       user: process.env.MYSQL_USER,
       password: process.env.MYSQL_PASSWORD,
       database: process.env.MYSQL_DATABASE,
