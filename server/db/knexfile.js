@@ -3,24 +3,24 @@
 module.exports = {
   development: {
     client: 'mysql2',
-    connection: {
-      host: 'localhost',
-      user: 'aaronlaptop',
-      password: 'Test1234!',
-      database: 'test',
-    },
+    // connection: {
+    //   host: 'localhost',
+    //   user: 'aaronlaptop',
+    //   password: 'Test1234!',
+    //   database: 'test',
+    // },
     // connection: {
     //   host: '13.210.13.136',
     //   user: 'aaronlaptop',
     //   password: 'Test1234!',
     //   database: 'test',
     // },
-    // connection: {
-    //   host: '3.26.160.105',
-    //   user: process.env.MYSQL_USER,
-    //   password: process.env.MYSQL_PASSWORD,
-    //   database: process.env.MYSQL_DATABASE,
-    // },
+    connection: {
+      host: 'localhost',
+      user: process.env.MYSQL_USER,
+      password: process.env.MYSQL_PASSWORD,
+      database: process.env.MYSQL_DATABASE,
+    },
     useNullAsDefault: true,
   },
 
